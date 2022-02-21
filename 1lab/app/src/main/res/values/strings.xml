@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">1lab</string>
+
+    <string name="ll_sp_title1">Спорт</string>
+
+    <string name="tv_sp_title1">Олимпиада</string>
+    <string name="tv_sp_desc1">пенис</string>
+
+    <string name="tv_sp_title2">Бег</string>
+    <string name="tv_sp_desc2">бегун упал</string>
+
+    <!---Student test results-->
+
+    <string name="ll_tr_title1">Путешествия</string>
+
+    <string name="tv_tr_title1">Турция</string>
+    <string name="tv_tr_desc1">да да</string>
+
+    <string name="tv_tr_title2">Греция</string>
+    <string name="tv_tr_desc2">нет нет</string>
+</resources>
