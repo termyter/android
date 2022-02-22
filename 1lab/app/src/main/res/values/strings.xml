@@ -4,10 +4,12 @@
     <string name="ll_sp_title1">Спорт</string>
 
     <string name="tv_sp_title1">Олимпиада</string>
-    <string name="tv_sp_desc1">пенис</string>
+    <string name="tv_sp_desc1">Олимпиада 2022 закончилась</string>
 
     <string name="tv_sp_title2">Бег</string>
-    <string name="tv_sp_desc2">бегун упал</string>
+    <string name="tv_sp_desc2">Бегун упал</string>
+
+    <string name="tv_tr_last1">Весь список (20)</string>
 
     <!---Student test results-->
 
@@ -18,4 +20,6 @@
 
     <string name="tv_tr_title2">Греция</string>
     <string name="tv_tr_desc2">нет нет</string>
+    <string name="tv_tr_last2">Весь список (20)</string>
+
 </resources>

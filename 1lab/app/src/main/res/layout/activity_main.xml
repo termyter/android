@@ -127,7 +127,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:text="@string/tv_sp_desc2"
-                            android:textSize="5pt">
+                            android:textSize="7pt">
 
                         </TextView>
 
@@ -150,6 +150,19 @@
 
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tr_last1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/tv_tr_last1"
+                android:textSize="5pt">
+
+            </TextView>
+
 
         </LinearLayout>
 
@@ -210,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="@string/tv_tr_desc1"
-                        android:textSize="5pt">
+                        android:textSize="7pt">
 
                     </TextView>
 
@@ -244,6 +257,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:paddingBottom="7dp"
                     android:layout_marginLeft="16dp"
                     android:src="@drawable/grek" />
 
@@ -288,6 +302,9 @@
                         android:text="Продолжить"
                         android:textSize="10dp" />
 
+
+
+
                 </LinearLayout>
 
 
@@ -295,7 +312,20 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/tv_tr_last2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/tv_tr_last2"
+                android:textSize="5pt">
+
+            </TextView>
+
         </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>
