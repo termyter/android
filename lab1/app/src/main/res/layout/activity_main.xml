@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/cardview_light_background">
+
+            <TextView
+                android:id="@+id/ll_sp_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/ll_sp_title1"
+                android:textColor="@color/black"
+                android:textSize="20pt">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/turk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_sp_title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_sp_title1"
+                        android:textColor="@color/black"
+                        android:textSize="10pt">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_sp_desc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/tv_sp_desc1"
+                        android:textSize="5pt">
+
+                    </TextView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/black"
+                        android:text="Продолжить"
+                        android:textSize="10dp"
+                        android:onClick="onClickOpenLink"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!---Student test results-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/run"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_sp_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_sp_title2"
+                        android:textColor="@color/black"
+                        android:textSize="10pt">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_sp_desc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/tv_sp_desc2"
+                        android:textSize="7pt">
+
+                    </TextView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/black"
+                        android:text="Продолжить"
+                        android:textSize="10dp"
+                        android:onClick="onClickOpenActivity"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tr_last1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/tv_tr_last1"
+                android:textSize="5pt">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <!---Student test results-->
+        <!---Student test results-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/cardview_light_background">
+
+            <TextView
+                android:id="@+id/ll_tr_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/ll_tr_title1"
+                android:textColor="@color/black"
+                android:textSize="20pt">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/turk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_tr_title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_tr_title1"
+                        android:textColor="@color/black"
+                        android:textSize="10pt">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_tr_desc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/tv_tr_desc1"
+                        android:textSize="7pt">
+
+                    </TextView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/black"
+                        android:text="Продолжить"
+                        android:textSize="10dp"
+                        android:onClick="onClickOpenLink"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!---Student test results-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:paddingBottom="7dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/grek" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_tr_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_tr_title2"
+                        android:textColor="@color/black"
+                        android:textSize="10pt">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_tr_desc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/tv_tr_desc2"
+                        android:textSize="5pt">
+
+                    </TextView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/black"
+                        android:text="Продолжить"
+                        android:textSize="10dp"
+                        android:onClick="onClickOpenActivity"/>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tr_last2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/tv_tr_last2"
+                android:textSize="5pt">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
