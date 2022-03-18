@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import com.termyter.lab2.databinding.PictureItemBinding
 
 class AnimesAdapter: RecyclerView.Adapter<AnimesAdapter.PictureViewHolder>() {
@@ -13,7 +14,7 @@ class AnimesAdapter: RecyclerView.Adapter<AnimesAdapter.PictureViewHolder>() {
         val binding = PictureItemBinding.bind(item)
         fun bind(anime: Anime) = with(binding){
             card1Title.text = anime.name
-            card1Photo.setImageResource(anime.imageId)
+            Picasso.get().load(anime.imageId).into(card1Photo)
         }
     }
 

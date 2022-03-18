@@ -2,6 +2,7 @@ package com.termyter.lab2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.squareup.picasso.Picasso
 import com.termyter.lab2.databinding.ActivityInfoPictureBinding
 
 class InfoAnimeActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class InfoAnimeActivity : AppCompatActivity() {
         binding.apply {
             textViewAuthorPicture.text = item.desc
             textViewTitlePicture.text = item.name
-            imageView.setImageResource(item.imageId)
+            Picasso.get().load(item.imageId).into(imageView)
         }
     }
 }
